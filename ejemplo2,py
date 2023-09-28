@@ -1,0 +1,27 @@
+# funciones
+nombre = "Javier Juan Carlos Blanco"   # variable global
+
+
+def funcionprimera(nom):
+    texto1 = " Espero que estes bien"  # variable local de la funcion funcionprimera
+    print("Hola " + nom + texto1)
+
+
+#funcionprimera("daniel") # le estoy mandando como parametro a la funcion el string daniel
+#funcionprimera("pedro")
+parametro = ""
+while not parametro == "lizmar" :
+    parametro = input(" como te llamas")
+    funcionprimera(parametro) # puedo mandar como parametro o argumento una variable
+print("mandaste lizmar")
+'''print(nombre[8])  # imprime la letra u
+print(nombre[2:5]) # imprime el 2 , el 3 y el 4
+print(nombre[0:6] + nombre[19:25])
+variable = "para parar en la parada partir del inicio"
+print(len(variable))    # longitud del string
+print(variable[0].upper() + variable[1:16])
+print(variable.capitalize())
+print(variable.islower())
+print(variable.strip())
+print(variable.rfind("ra",10,20))
+'''
